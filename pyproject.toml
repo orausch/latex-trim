@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "latex_trim"
-version = "0.1.0"
+version = "0.1.2"
 description = "Tool that allows you to include sub-selections of PDFs in latex documents."
 authors = ["Oliver Rausch <oliverrausch99@gmail.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.7,<3.11"
