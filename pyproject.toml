@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "latex_trim"
-version = "0.1.2"
+name = "latex-trim"
+version = "0.1.3"
 description = "Tool that allows you to include sub-selections of PDFs in latex documents."
 authors = ["Oliver Rausch <oliverrausch99@gmail.com>"]
 readme = "README.md"
@@ -13,7 +13,7 @@ pdf2image = "^1.16.0"
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.scripts]
-latex_trim = 'latex_trim.latex_trim:run'
+latex-trim = 'latex_trim.latex_trim:run'
 
 
 [build-system]
